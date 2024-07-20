@@ -1,9 +1,10 @@
 services:
   francinette:
     image: francinette-42tokyo
+    env_file: config/francinette/.env
     build:
       context: ./docker/francinette
       args:
         NORM_VERSION: "v3.3.51"
-        BRANCH_NAME: "master"
+        BRANCH_NAME: "${TAG:-master}"
     init: true
