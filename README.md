@@ -11,7 +11,10 @@ Furthermore, as stated in the review requirements, if any issues are found, plea
 
 # Installation
 
-Under construction...(工事中...)
+please run command bellow.
+```
+bash -c "$(curl -s https://raw.githubusercontent.com/PalmNeko/francinette-image-42tokyo/main/install.sh)"
+```
 
 # Usage
 
