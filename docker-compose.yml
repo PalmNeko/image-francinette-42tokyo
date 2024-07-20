@@ -1,0 +1,9 @@
+services:
+  francinette:
+    image: francinette-42tokyo
+    build:
+      context: ./docker/francinette
+      args:
+        NORM_VERSION: "v3.3.51"
+        BRANCH_NAME: "master"
+    init: true
