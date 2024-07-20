@@ -1,7 +1,7 @@
 # image-francinette-42tokyo
 docker image: francinette for 42 tokyo
 
-This project create [francinette](https://github.com/xicodomingues/francinette) test environment for 42Tokyo with docker.
+This project create [francinette](https://github.com/xicodomingues/francinette/tree/0.9.9) test environment for 42Tokyo with docker.
 
 # Caution
 
@@ -13,7 +13,7 @@ Furthermore, as stated in the review requirements, if any issues are found, plea
 
 please run command bellow.
 ```
-bash -c "$(curl -s https://raw.githubusercontent.com/PalmNeko/image-francinette-42tokyo/main/install.sh)"
+bash -c "$(curl -s https://raw.githubusercontent.com/PalmNeko/image-francinette-42tokyo/v0.1.0/install.sh)"
 ```
 
 # Usage
@@ -25,7 +25,7 @@ paco [options]
 francinette [options]
 ```
 
-please refer [francinette](https://github.com/xicodomingues/francinette)
+please refer [francinette](https://github.com/xicodomingues/francinette/tree/0.9.9)
 
 # Can I Use ?
 
@@ -38,4 +38,4 @@ please refer [francinette](https://github.com/xicodomingues/francinette)
 
 # See Also
 
-[francinette](https://github.com/xicodomingues/francinette)
+[francinette](https://github.com/xicodomingues/francinette/tree/0.9.9)
