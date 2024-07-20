@@ -2,7 +2,7 @@
 
 set -e
 
-REPO_NAME="francinette-image-42tokyo"
+REPO_NAME="image-francinette-42tokyo"
 BRANCH_NAME="main"
 INSTALLDIR="${INSTALLDIR:-"$HOME/bin"}"
 cd "$INSTALLDIR" || exit 1

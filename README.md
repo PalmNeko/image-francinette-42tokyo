@@ -1,4 +1,4 @@
-# francinette-image-42tokyo
+# image-francinette-42tokyo
 docker image: francinette for 42 tokyo
 
 This project create [francinette](https://github.com/xicodomingues/francinette) test environment for 42Tokyo with docker.
@@ -13,7 +13,7 @@ Furthermore, as stated in the review requirements, if any issues are found, plea
 
 please run command bellow.
 ```
-bash -c "$(curl -s https://raw.githubusercontent.com/PalmNeko/francinette-image-42tokyo/main/install.sh)"
+bash -c "$(curl -s https://raw.githubusercontent.com/PalmNeko/image-francinette-42tokyo/main/install.sh)"
 ```
 
 # Usage
