@@ -18,7 +18,14 @@ bash -c "$(curl -s https://raw.githubusercontent.com/PalmNeko/image-francinette-
 
 # Usage
 
-Under construction...(工事中...)
+```
+paco [options]
+```
+```
+francinette [options]
+```
+
+please refer [francinette](https://github.com/xicodomingues/francinette)
 
 # Can I Use ?
 
