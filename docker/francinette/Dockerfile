@@ -25,7 +25,7 @@ RUN \
 		cdist \
 		python3.10-venv \
 	&& apt-get autoremove -y \
-	&& apt-get clean \
+	&& apt-get clean -y \
 	&& rm -rf /var/lib/apt/lits/*
 
 WORKDIR /test
