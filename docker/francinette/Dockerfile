@@ -4,8 +4,8 @@ ARG NORM_VERSION=v3.3.51
 ARG BRANCH_NAME=master
 
 RUN \
-	apt update \
-	&& apt upgrade \
+	apt update -y \
+	&& apt upgrade -y \
 	&& apt-get install -y \
 		gcc \
 		clang \
